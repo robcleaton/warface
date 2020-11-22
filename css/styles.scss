@@ -1,0 +1,145 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+body {
+  background: #FDB813;
+}
+
+footer {
+  background: #272727;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+.card-stack {
+  background: pink;
+  width: 100%;
+
+  .card {
+    float: left;
+  }
+
+}
+
+
+
+
+div.scrollmenu, .card-stack {
+  overflow: auto;
+  white-space: nowrap;
+  background: pink;
+}
+
+div.scrollmenu a, div.scrollmenu .card {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.scrollmenu::-webkit-scrollbar, .card-stack::-webkit-scrollbar {
+  display: none;
+}
+
+div.scrollmenu .card {
+  background: white;
+  color: pink;
+  border-radius: 12px;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+p {
+  color: black;
+  white-space: normal;
+  text-align: left;
+}
+/*
+:root {
+  --gutter: 20px;
+}
+
+.app {
+  padding: var(--gutter) 0;
+  display: grid;
+  grid-gap: var(--gutter) 0;
+  grid-template-columns: var(--gutter) 1fr var(--gutter);
+  align-content: start;
+}
+
+.app > * {
+  grid-column: 2 / -2;
+}
+
+.app > .full {
+  grid-column: 1 / -1;
+}
+
+.hs {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: 10px;
+  grid-template-rows: minmax(150px, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: calc(50% - var(--gutter) * 2);
+
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(.75 * var(--gutter));
+  margin-bottom: calc(-.25 * var(--gutter));
+}
+
+.hs:before,
+.hs:after {
+  content: '';
+  width: 10px;
+}
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: #456173;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.app {
+  width: 100%;
+  height: 667px;
+  background: #DBD0BC;
+}
+
+.hs > li,
+.item {
+  scroll-snap-align: center;
+  padding: calc(var(--gutter) / 2 * 1.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+*/
