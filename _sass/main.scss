@@ -1,0 +1,49 @@
+---
+---
+body {
+  background: red;
+}
+body {
+  background: #FDB813;
+}
+
+footer {
+  background: #272727;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+
+div.scrollmenu, .card-stack {
+  overflow: auto;
+  white-space: nowrap;
+  background: pink;
+  padding: 0px 40px;
+}
+
+div.scrollmenu a, div.scrollmenu .card {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+.scrollmenu::-webkit-scrollbar, .card-stack::-webkit-scrollbar {
+  display: none;
+}
+
+div.scrollmenu .card {
+  background: white;
+  color: pink;
+  border-radius: 12px;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+p {
+  color: black;
+  white-space: normal;
+  text-align: left;
+}
