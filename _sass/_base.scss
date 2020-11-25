@@ -2,7 +2,7 @@ html,
 body {
     height: 100%;
     width: 100%;
-    background-color: pink;
+    background-color: #FDB813;
 }
 
 footer {
@@ -17,7 +17,6 @@ footer {
 div.scrollmenu, .card-stack {
   overflow: auto;
   white-space: nowrap;
-  background: pink;
   padding: 0px 40px;
 }
 
@@ -27,6 +26,10 @@ div.scrollmenu a, div.scrollmenu .card {
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  border: none;
+}
+div.scrollmenu .card:hover {
+  background: pink;
 }
 .scrollmenu::-webkit-scrollbar, .card-stack::-webkit-scrollbar {
   display: none;
@@ -43,9 +46,10 @@ div.scrollmenu .card {
   h5 {
     text-align: left;
   }
-  p {
+  a, p {
     color: black;
     white-space: normal;
     text-align: left;
+    padding: 0px;
   }
 }
