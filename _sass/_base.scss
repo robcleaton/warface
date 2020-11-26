@@ -6,10 +6,13 @@ html, body {
 
 footer {
   background: #272727;
+  /*
   position: fixed;
   bottom: 0;
+  */
   width: 100%;
   color: white;
+  height: 400px;
 }
 
 
@@ -17,6 +20,7 @@ div.scrollmenu, .card-stack {
   overflow: auto;
   white-space: nowrap;
   padding: 0px 40px;
+  margin-top: 40px;
 }
 
 div.scrollmenu a, div.scrollmenu .card {
@@ -51,4 +55,8 @@ div.scrollmenu .card {
     text-align: left;
     padding: 0px;
   }
+}
+
+.container-fluid {
+  margin-top: 60px;
 }
