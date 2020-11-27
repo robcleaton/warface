@@ -5,9 +5,28 @@ permalink: /lloyds-banking-app/
 ---
 
 <style>
-  body {
+  html, body {
     background: green;
   }
 </style>
 
-<h1>{{ page.title }}</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8">
+      <h1>{{ page.title }}</h1>
+
+      <div class="disciplines">
+        <ul>
+          <li>Side project</li>
+          <li>Brand identity</li>
+          <li>Illustration</li>
+          <li>Graphic design</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="project-cards">
+  {% include project-cards.html %}
+</section>

@@ -5,7 +5,7 @@ permalink: /science-museum/
 ---
 
 <style>
-  body {
+  html, body {
     background: black;
     color: white;
   }
@@ -13,4 +13,22 @@ permalink: /science-museum/
 
 <div class="container-fluid">
   <h1>{{ page.title }}</h1>
+
+  <div class="row">
+    <div class="col-md-8">
+
+      <div class="disciplines">
+        <ul>
+          <li>Side project</li>
+          <li>Brand identity</li>
+          <li>Illustration</li>
+          <li>Graphic design</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
+
+<section class="project-cards">
+  {% include project-cards.html %}
+</section>
