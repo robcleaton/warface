@@ -1,63 +1,30 @@
 html, body {
-    height: 100%;
-    width: 100%;
-    background-color: #FDB813;
+  height: 100%;
+  width: 100%;
+  background-color: #FDB813;
 }
 
 footer {
   background: #272727;
+  background: #FDB813;
   width: 100%;
   color: white;
   height: 400px;
-
   h2 {
-    font-family: 'SerifGothic';
-    text-transform: uppercase;
-  }
-}
-
-
-div.scrollmenu, .card-stack {
-  overflow: auto;
-  white-space: nowrap;
-  padding: 0px 40px;
-  margin-top: 40px;
-}
-
-div.scrollmenu a, div.scrollmenu .card {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-  border: none;
-}
-div.scrollmenu .card:hover {
-  background: pink;
-}
-.scrollmenu::-webkit-scrollbar, .card-stack::-webkit-scrollbar {
-  display: none;
-}
-
-div.scrollmenu .card {
-  background: white;
-  color: pink;
-  border-radius: 12px;
-  width: 300px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-
-  h5 {
-    text-align: left;
-  }
-  a, p {
-    color: black;
-    white-space: normal;
-    text-align: left;
-    padding: 0px;
+    color: white;
   }
 }
 
 .container-fluid {
   margin-top: 60px;
+}
+
+.color-block {
+  height: 80vh;
+  background: red;
+  color: white;
+}
+::selection {
+  background: red;
+  color: white;
 }

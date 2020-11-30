@@ -1,0 +1,40 @@
+
+{% include header.html %}
+
+<style>
+  html, body {
+    background: #f1f1ec;
+    color: #21304d;
+  }
+  .color-block {
+    height: 80vh;
+    background: red;
+    color: white;
+  }
+  h2 {
+    font-size: 6rem;
+    font-family: 'SerifGothic';
+    text-transform: uppercase;
+    letter-spacing: -0.1rem;
+    line-height: 4.6rem;
+    color: #FDB813;
+  }
+
+</style>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>Product design studio based in London. With over 10 years experience we design for both big and small companies.</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="cards-lg">
+    {% include project-cards.html %}
+  </div>
+
+  {% include seo-cards.html %}
+  {% include footer.html %}
+</body>

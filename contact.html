@@ -2,5 +2,51 @@
 title: Contact
 layout: default
 ---
+<style>
+  html, body, footer {
+    background: #f1f1ec;
+    color: #21304d;
+  }
+  .color-block {
+    height: 80vh;
+    background: red;
+    color: white;
+  }
+  h2 {
+    font-size: 6rem;
+    font-family: 'SerifGothic';
+    text-transform: uppercase;
+    letter-spacing: -0.1rem;
+    line-height: 4.6rem;
+    color: #FDB813;
+  }
+  footer {
+    display: none;
+  }
+</style>
 
-<h1>{{ page.title }}</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8">
+      <h2>Lets work together</h2>
+
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    </div>
+  </div>
+</div>

@@ -4,6 +4,15 @@ layout: default
 permalink: /projects/
 ---
 
-<h1>{{ page.title }}</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-8">
+      <h1>{{ page.title }}</h1>
+    </div>
+  </div>
+</div>
 
-{% include project-cards.html %}
+<div class="cards-lg">
+  {% include project-cards.html %}
+</div>
+{% include seo-cards.html %}

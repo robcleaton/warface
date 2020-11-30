@@ -4,7 +4,10 @@
 
 @import
         "base",
-        "colours"
+        "colours",
+        "typography",
+        "cards",
+        "media"
 ;
 
 @font-face {
@@ -15,19 +18,4 @@
 footer h1 {
   font-family: 'SerifGothic';
   text-transform: uppercase !important;
-}
-
-
-// Mobile
-@media only screen and (max-width: 991px) {
-  body {
-    background-color: purple;
-  }
-}
-
-// Tablet
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: #fcd173;
-  }
 }

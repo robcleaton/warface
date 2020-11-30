@@ -1,0 +1,71 @@
+
+div.scrollmenu, .card-stack {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 0px 40px;
+  margin-top: 40px;
+}
+
+div.scrollmenu a, div.scrollmenu .card {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+div.scrollmenu .card:hover {
+  background: pink;
+}
+.scrollmenu::-webkit-scrollbar, .card-stack::-webkit-scrollbar {
+  display: none;
+}
+
+div.scrollmenu .card {
+  background: white;
+  color: pink;
+  border-radius: 12px;
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+
+  h5 {
+    text-align: left;
+  }
+  a, p {
+    color: black;
+    white-space: normal;
+    text-align: left;
+    padding: 0px;
+  }
+}
+// Mobile
+@media only screen and (max-width: 991px) {
+  div.scrollmenu, .card-stack {
+    padding: 0px 20px;
+  }
+  div.scrollmenu .card {
+    margin-right: 10px;
+  }
+}
+
+
+// Hero cards
+
+// Desktop
+@media only screen and (min-width: 991px) {
+  .cards-lg {
+    div.scrollmenu .card {
+      width: 500px;
+    }
+    h5 {
+      font-size: 2.25rem;
+    }
+    .card-body {
+      padding: 2rem;
+
+      p.card-text {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
