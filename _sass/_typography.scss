@@ -1,11 +1,20 @@
 
-h1 {
+@font-face {
+  font-family: 'SerifGothic';
+  src: url(../fonts/Serif-Gothic/itc-serif-gothic-black.otf);
 }
-h2 {
+@font-face {
+  font-family: 'Cinderblock-100';
+  src: url(../fonts/Cinderblock/Cinderblock-100.otf);
+}
+
+h1 {
   font-family: 'SerifGothic';
   text-transform: uppercase;
-  font-size: 8vw;
+  font-size: 18vw;
+  line-height: 13.75vw;
 }
+
 h2 {
   font-size: 6rem;
   font-family: 'SerifGothic';
@@ -13,4 +22,12 @@ h2 {
   letter-spacing: -0.1rem;
   line-height: 4.6rem;
   color: #FDB813;
+  word-spacing: -0.6rem;
+}
+
+h3, .card-body h5, .Cinderblock-100 {
+  font-family: 'Cinderblock-100';
+  font-size: 6rem;
+  line-height: 4.6rem;
+  text-transform: uppercase;
 }

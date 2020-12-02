@@ -1,11 +1,38 @@
 // Mobile
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 5rem;
+    letter-spacing: -0.1rem;
+    line-height: 3.9rem;
+  }
+  h2 {
+    font-size: 3.2rem;
+    letter-spacing: -0.1rem;
+    line-height: 2.6rem;
+    word-spacing: -0.2rem;
+  }
+
 }
 
 // Tablet
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 601px) {
+  h2 {
+    font-size: 5.5rem;
+  }
 }
 
 // Desktop
 @media only screen and (min-width: 991px) {
+
+  h1 {
+    font-size: 8rem;
+    letter-spacing: -0.1rem;
+    line-height: 6rem;
+  }
+  h2 {
+    font-size: 7rem;
+    letter-spacing: -0.1rem;
+    line-height: 5.4rem;
+  }
 }
