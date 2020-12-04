@@ -5,6 +5,13 @@ html, body {
   background-color: #f1f1ec; /*Grey*/
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: red;
+  font-size: 28px;
+  font-family: 'SerifGothic';
+  text-transform: uppercase;
+}
+
 footer {
   background: #272727;
   background: #FDB813;
