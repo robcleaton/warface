@@ -4,7 +4,9 @@ html, body {
   background-color: #FDB813; /*Yellow*/
   background-color: #f1f1ec; /*Grey*/
 }
-
+header {
+  padding-bottom: 40px;
+}
 .navbar-light .navbar-nav .nav-link {
   color: red;
   font-size: 28px;
