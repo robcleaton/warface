@@ -1,11 +1,10 @@
-
 div.scrollmenu, .card-stack {
   overflow: auto;
   white-space: nowrap;
   padding: 0px 40px;
   margin-top: 40px;
+  display: inline-flex;
 }
-
 div.scrollmenu a, div.scrollmenu .card {
   display: inline-block;
   color: white;
@@ -13,6 +12,7 @@ div.scrollmenu a, div.scrollmenu .card {
   text-decoration: none;
   border: none;
 }
+
 div.scrollmenu .card:hover {
   background: pink;
 }
@@ -47,7 +47,6 @@ div.scrollmenu .card {
     margin-right: 10px;
   }
 }
-
 
 // HERO CARDS
   // Desktop
