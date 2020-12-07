@@ -14,6 +14,13 @@ header {
   text-transform: uppercase;
 }
 
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.navbar-light .navbar-toggler-icon {
+  background: pink url('../images/warface-logo.svg') 0 0 no-repeat;
+}
+
 footer {
   background: #272727;
   background: #FDB813;
@@ -33,7 +40,7 @@ footer {
 }
 
 .container-fluid {
-  margin-top: 60px;
+    margin-top: 53px;
 }
 
 .color-block {

@@ -3,7 +3,6 @@ div.scrollmenu, .card-stack {
   white-space: nowrap;
   padding: 0px 40px;
   margin-top: 40px;
-  display: inline-flex;
 }
 div.scrollmenu a, div.scrollmenu .card {
   display: inline-block;
@@ -27,6 +26,7 @@ div.scrollmenu .card {
   width: 300px;
   margin-right: 20px;
   margin-bottom: 20px;
+  display: inline-flex;
 
   h5 {
     text-align: left;
