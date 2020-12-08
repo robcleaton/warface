@@ -29,7 +29,7 @@ header {
   opacity: 0.4;
 }
 .navbar-light .navbar-toggler-icon {
-  background: pink url('../images/menu.svg') 0 0 no-repeat;
+  background: url('../images/menu.svg') 0 0 no-repeat;
 }
 
 footer {
@@ -47,6 +47,10 @@ footer {
   }
   a {
     font-weight: 400;
+    color: white;
+  }
+  a:hover {
+    color: black;
   }
 }
 
