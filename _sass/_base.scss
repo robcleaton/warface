@@ -17,8 +17,19 @@ header {
 .navbar-light .navbar-toggler {
   border: none;
 }
+.navbar-toggler-icon {
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+}
+.navbar-toggler:focus, .navbar-toggler:active  {
+  border: 5px solid black;
+  border: 0;
+  outline: none;
+  opacity: 0.4;
+}
 .navbar-light .navbar-toggler-icon {
-  background: pink url('../images/warface-logo.svg') 0 0 no-repeat;
+  background: pink url('../images/menu.svg') 0 0 no-repeat;
 }
 
 footer {
@@ -40,13 +51,30 @@ footer {
 }
 
 .container-fluid {
-    margin-top: 53px;
+  margin-top: 54px;
+  padding-bottom: 100px;
+  padding-top: 10px;
 }
 
 .color-block {
   height: 80vh;
-  background: red;
+  background: pink;
   color: white;
+}
+.btn-primary {
+  background: black;
+  border: none;
+  font-family: 'SerifGothic';
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+.btn-primary:hover {
+  background: #FDB813;
+}
+.btn-primary:active, .btn-primary:focus {
+  background: pink !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 ::selection {
   background: red;
