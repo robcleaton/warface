@@ -8,12 +8,14 @@ header {
   padding-bottom: 40px;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: red;
+  color: black;
   font-size: 28px;
   font-family: 'SerifGothic';
   text-transform: uppercase;
 }
-
+.nav-link:hover {
+  color: #FDB813 !important;
+}
 .navbar-light .navbar-toggler {
   border: none;
 }
