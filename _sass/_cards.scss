@@ -1,27 +1,30 @@
+div.scrollmenu {
+  background: $base-clay;
+  padding: 40px 40px;
+  margin: 0px;
+}
 div.scrollmenu, .card-stack {
   overflow: auto;
   white-space: nowrap;
-  padding: 0px 40px;
-  margin-top: 40px;
 }
 div.scrollmenu a, div.scrollmenu .card {
   display: inline-block;
-  color: white;
+  color: $white;
   text-align: center;
   text-decoration: none;
   border: none;
 }
 
 div.scrollmenu .card:hover {
-  background: pink;
+  background: $pink-1;
 }
 .scrollmenu::-webkit-scrollbar, .card-stack::-webkit-scrollbar {
   display: none;
 }
 
 div.scrollmenu .card {
-  background: white;
-  color: pink;
+  background: $white;
+  color: $pink-1;
   border-radius: 12px;
   width: 300px;
   margin-right: 20px;
@@ -32,7 +35,7 @@ div.scrollmenu .card {
     text-align: left;
   }
   a, p {
-    color: black;
+    color: $black;
     white-space: normal;
     text-align: left;
     padding: 0px;
@@ -41,7 +44,7 @@ div.scrollmenu .card {
 // Mobile
 @media only screen and (max-width: 991px) {
   div.scrollmenu, .card-stack {
-    padding: 0px 20px;
+    padding: 20px 20px;
   }
   div.scrollmenu .card {
     margin-right: 10px;

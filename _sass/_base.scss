@@ -1,8 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #FDB813; /*Yellow*/
-  background-color: #f1f1ec; /*Grey*/
+  background: $base-clay;
 }
 header {
   padding-bottom: 40px;
@@ -14,7 +13,7 @@ header {
   text-transform: uppercase;
 }
 .nav-link:hover {
-  color: #FDB813 !important;
+  color: $yellow !important;
 }
 .navbar-light .navbar-toggler {
   border: none;
@@ -35,39 +34,30 @@ header {
 }
 
 footer {
-  background: #272727;
-  background: #FDB813;
+  background: $yellow;
   width: 100%;
-  color: white;
+  color: $white;
   height: 400px;
+  z-index: 10;
+  position: relative;
+
 
   h2 {
-    color: white;
+    color: $white;
   }
   .container-fluid {
     padding-top: 20px;
   }
   a {
     font-weight: 400;
-    color: white;
+    color: $white;
   }
   a:hover {
     color: black;
   }
 }
 
-.container-fluid {
-  margin-top: 54px;
-  padding-bottom: 100px;
-  padding-top: 10px;
-}
 
-.color-block {
-  height: 80vh;
-  background: pink;
-  color: white;
-  padding-top: 10px;
-}
 .btn-primary {
   background: black;
   border: none;
@@ -76,7 +66,7 @@ footer {
   text-transform: uppercase;
 }
 .btn-primary:hover {
-  background: #FDB813;
+  background: $yellow;
 }
 .btn-primary:active, .btn-primary:focus {
   background: pink !important;
@@ -85,5 +75,26 @@ footer {
 }
 ::selection {
   background: red;
-  color: white;
+  color: $white;
+}
+
+
+
+
+.container-fluid {
+  margin-top: 54px;
+  padding-bottom: 100px;
+  padding-top: 10px;
+}
+.color-block {
+  height: 80vh;
+  background: $pink-1;
+  color: $white;
+  padding-top: 10px;
+}
+div.sheets {
+  z-index: 10;
+  position:
+  relative;
+  padding-top: 80vh;
 }
