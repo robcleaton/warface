@@ -78,7 +78,10 @@ footer {
   color: $white;
 }
 
-
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
 
 
 .container-fluid {
