@@ -31,6 +31,7 @@ div.scrollmenu .card {
   border-radius: 12px;
   width: 300px;
   margin-right: 12px;
+  vertical-align: top;
   display: inline-flex;
 
   img.card-img-top {
@@ -70,38 +71,11 @@ div.scrollmenu .card.see-all {
   }
 }
 
-.cards-lg {
-  div.scrollmenu .card {
-    margin-right: 16px;
-
-    img.card-img-top {
-      height: 300px;
-    }
-    h6 {
-      font-size: 3.4rem;
-      line-height: 2.7rem;
-      word-spacing: -0.6rem;
-    }
-    p {
-      width: 80%;
-    }
-  }
-  div.scrollmenu .card.see-all {
-    text-align: center;
-    width: 120px !important;
-    height: 120px;
-    border-radius: 110px;
-    margin-left: 40px;
-    a {
-      font-size: 1rem;
-    }
-    svg {
-      height: 3.5rem;
-    }
+div.scrollmenu.seo {
+  .card {
+    width: 360px;
   }
 }
-
-
 
 div.scrollmenu .card.cookpad:hover {
   background: #ffbd76;
@@ -143,6 +117,38 @@ div.scrollmenu .card.reclining-worm:hover {
   // Desktop
   @media only screen and (min-width: 991px) {
     .cards-lg {
+        div.scrollmenu .card {
+          margin-right: 16px;
+
+          img.card-img-top {
+            height: 300px;
+          }
+          h6 {
+            font-size: 3.4rem;
+            line-height: 2.7rem;
+            word-spacing: -0.6rem;
+          }
+          p {
+            width: 80%;
+          }
+        }
+
+        div.scrollmenu .card.see-all {
+          text-align: center;
+          width: 120px !important;
+          height: 120px;
+          border-radius: 110px;
+          margin-left: 40px;
+          margin-top: 260px;
+          
+          a {
+            font-size: 1rem;
+          }
+          svg {
+            height: 3.5rem;
+          }
+        }
+
       div.scrollmenu .card {
         width: 500px;
       }
