@@ -7,13 +7,13 @@ header {
   padding-bottom: 40px;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: black;
+  color: $yellow;
   font-size: 28px;
   font-family: 'SerifGothic';
   text-transform: uppercase;
 }
 .nav-link:hover {
-  color: $yellow !important;
+  color: $khaki-green !important;
 }
 .navbar-light .navbar-toggler {
   border: none;
@@ -82,11 +82,13 @@ footer {
   height: 80vh;
   object-fit: cover;
 }
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-image: none;
+}
 
 
 .container-fluid {
   margin-top: 54px;
-  padding-bottom: 100px;
   padding-top: 10px;
 }
 .color-block {
@@ -99,5 +101,5 @@ div.sheets {
   z-index: 10;
   position:
   relative;
-  padding-top: 80vh;
+  margin-top: 100vh;
 }

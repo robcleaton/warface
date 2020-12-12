@@ -2,21 +2,25 @@ div.scrollmenu {
   padding: 40px 40px;
   margin: 0px;
 }
+
 div.scrollmenu, .card-stack {
   overflow: auto;
   white-space: nowrap;
 }
+
 div.scrollmenu a, div.scrollmenu .card {
   display: inline-block;
   color: $white;
   text-align: center;
   text-decoration: none;
   border: none;
+  cursor: url('../images/icons/happy.png'), auto;
 }
 
 div.scrollmenu .card:hover {
   background: $pink-1;
 }
+
 .scrollmenu::-webkit-scrollbar, .card-stack::-webkit-scrollbar {
   display: none;
 }
@@ -26,11 +30,21 @@ div.scrollmenu .card {
   color: $pink-1;
   border-radius: 12px;
   width: 300px;
-  margin-right: 20px;
+  margin-right: 12px;
   display: inline-flex;
 
+  img.card-img-top {
+    background: pink;
+    height: 150px;
+    object-fit: cover;
+    }
   h5 {
     text-align: left;
+  }
+  h6 {
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+    word-spacing: -0.1rem;
   }
   a, p {
     color: $black;
@@ -38,15 +52,56 @@ div.scrollmenu .card {
     text-align: left;
     padding: 0px;
   }
-  p.card-body {
-    width: 80%;
+
+}
+div.scrollmenu .card.see-all {
+  vertical-align: text-top;
+  text-align: center;
+  width: 100px !important;
+  height: 100px;
+  border-radius: 110px;
+  margin-left: 40px;
+  a {
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  svg {
+    height: 4rem;
   }
 }
-div.card img.card-img-top {
-  background: pink;
-  height: 300px;
-  object-fit: cover;
+
+.cards-lg {
+  div.scrollmenu .card {
+    margin-right: 16px;
+
+    img.card-img-top {
+      height: 300px;
+    }
+    h6 {
+      font-size: 3.4rem;
+      line-height: 2.7rem;
+      word-spacing: -0.6rem;
+    }
+    p {
+      width: 80%;
+    }
+  }
+  div.scrollmenu .card.see-all {
+    text-align: center;
+    width: 120px !important;
+    height: 120px;
+    border-radius: 110px;
+    margin-left: 40px;
+    a {
+      font-size: 1rem;
+    }
+    svg {
+      height: 3.5rem;
+    }
+  }
 }
+
+
 
 div.scrollmenu .card.cookpad:hover {
   background: #ffbd76;
@@ -69,12 +124,7 @@ div.scrollmenu .card.lloyds:hover {
 div.scrollmenu .card.reclining-worm:hover {
   background: #9f5ce6;
 }
-div.scrollmenu .card.see-all {
-  width: 120px;
-  height: 120px;
-  border-radius: 110px;
-  margin-left: 40px;
-}
+
 
 // Mobile
 @media only screen and (max-width: 991px) {
