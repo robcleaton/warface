@@ -1,9 +1,11 @@
 html, body {
   background: $base-clay;
 }
-header {
-  padding-bottom: 40px;
+.container-fluid {
+  margin-top: 92px;
+  padding-top: 10px;
 }
+
 .navbar-light .navbar-nav .nav-link {
   color: $yellow;
   font-size: 28px;
@@ -85,10 +87,7 @@ footer {
 }
 
 
-.container-fluid {
-  margin-top: 54px;
-  padding-top: 10px;
-}
+
 .color-block {
   height: 80vh;
   background: $pink-1;
