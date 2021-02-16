@@ -93,10 +93,13 @@ footer {
 
 
 .color-block {
-  height: 80vh;
+  height: 68vh;
   background: $pink-1;
   color: $white;
   padding-top: 10px;
+}
+.hero {
+  z-index: 0;
 }
 div.sheets {
   z-index: 10;

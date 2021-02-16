@@ -17,6 +17,11 @@ div.scrollmenu a, div.scrollmenu .card {
   cursor: url('../images/icons/happy.png'), auto;
 }
 
+.card-img, .card-img-top {
+  border-top-left-radius: calc(.75rem - 1px);
+  border-top-right-radius: calc(.75rem - 1px);
+}
+
 div.scrollmenu .card:hover {
   background: $pink-1;
 }
