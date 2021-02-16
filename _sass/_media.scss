@@ -15,9 +15,6 @@
   }
   div.sheets {
   }
-  .container-fluid {
-    margin-top: 64px !important;
-  }
 
   .navbar-brand {
     padding: 0px;
@@ -49,6 +46,10 @@
 
 // Desktop
 @media only screen and (min-width: 991px) {
+
+  .container-fluid {
+    margin-top: 92px;
+  }
 
   h1 {
     font-size: 8rem;
