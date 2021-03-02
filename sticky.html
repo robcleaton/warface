@@ -3,8 +3,11 @@ title: Sticky
 layout: default-x
 permalink: /sticky/
 ---
-<style>
 
+<style>
+  footer .container-fluid {
+    margin-top: 0px;
+  }
   h1 {
     font-size: 4rem;
     text-transform: uppercase;
@@ -12,32 +15,48 @@ permalink: /sticky/
   }
 
   .hero {
+    background: red;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
     position: sticky;
     z-index: 0;
-    background: grey;
-    padding: 40px;
     top: 0;
     padding-top: 100px;
     margin-top: 0px;
-    font-size: 4rem;
-
   }
-  .block {
-    background: pink;
-    height: 90vh;
+  .sheets {
+    z-index: 1000;
     position: relative;
-    z-index: 0;
-    padding: 40px;
-  }
-  h2 {
-    font-size: 3rem;
+    display: block;
   }
 </style>
 
-<div class="hero">
-  <h1>Intro block to be fixed position and under all other content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non orci eu odio suscipit sagittis. Sed vitae pretium sapien, vitae facilisis tellus. Praesent gravida interdum quam, id accumsan ex congue quis.</h1>
+<div class="container-fluid hero" style="padding-bottom: 0px;">
+  <div class="row">
+    <div class="col-md-10">
+      <h2>Sticky header example. With over 15 years experience we design for both <a href="about">big and small companies.</a></h2>
+    </div>
+  </div>
+  <p class="lead">Stick content</p>
 </div>
 
-<div class="block">
-    <h2>Second block to be position below the hero block and overlay on scroll. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non orci eu odio suscipit sagittis. Sed vitae pretium sapien, vitae facilisis tellus. Praesent gravida interdum quam, id accumsan ex congue quis.</h2>
+<div class="sheets">
+  <div class="container-fluid" style="padding-bottom: 0px; padding-top: 0px; margin-top: 0px;">
+    <div class="row color-block" style="background: #FDB813;">
+      <div class="col">
+        <h2 style="color: #f1f1ec;">Hero case study</h2>
+        <h4>Science Museum</h4>
+        <p class="lead">1 of 3</p>
+      </div>
+      <div class="col-6">
+        2 of 3 (wider)
+      </div>
+      <div class="col">
+        3 of 3
+      </div>
+    </div>
+  </div>
+
 </div>
