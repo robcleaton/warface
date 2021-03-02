@@ -14,21 +14,20 @@ layout: default
 
   .hero {
     background: red;
-    position: -webkit-sticky;
-    position: -moz-sticky;
-    position: -o-sticky;
-    position: -ms-sticky;
+
     position: sticky;
     z-index: 0;
     top: 0;
     padding-top: 100px;
     margin-top: 0px;
   }
-  .sheets {
-    z-index: 1000;
+  .sheets, footer {
+    z-index: 100;
     position: relative;
     display: block;
+    margin-top: -20px;
   }
+
 </style>
 
 <div class="container-fluid hero" style="padding-bottom: 0px;">
