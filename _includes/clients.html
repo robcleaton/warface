@@ -1,23 +1,99 @@
-<div class="container-fluid color-block clients" style="background: #325026; margin-top: 0px;">
+<style>
+  .frame {
+    height: 68px;      /* equals max image height */
+    width: 160px;
+    border: 1px solid red;
+    white-space: nowrap;
+
+    text-align: center; margin: 1em 0;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.clients .col-md-2 {
+  height: 80px;
+  width: 160px;
+  white-space: nowrap;
+  text-align: center; margin: 1em 0;
+}
+.clients .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.clients img {
+    vertical-align: middle;
+    max-height: 40px;
+    max-width: 160px;
+}
+</style>
+
+<div class="container-fluid color-block clients" style="background: none; margin-top: 0px;">
   <div class="row">
     <div class="col-6">
       <h2 style="color: $yellow;">In good company</h2>
     </div>
   </div>
   <div class="row">
-    <div class="col-3 col-md-2"><a href="{{ site.baseurl }}/trainline"><img src="{{ site.baseurl }}/assets/images/logos/tl-logo.svg" alt="Trainline"></a></div>
-    <div class="col-3 col-md-2"><a href="{{ site.baseurl }}/science-museum"><img src="{{ site.baseurl }}/assets/images/logos/sciencemuseum-logo.svg" alt="Science Museum"></a></div>
-    <div class="col-3 col-md-2"><a href="{{ site.baseurl }}/just-eat"><img src="{{ site.baseurl }}/assets/images/logos/justeat-logo.svg" alt="Just Eat"></a></div>
-    <div class="col-3 col-md-2"><a href="{{ site.baseurl }}/cookpad"><img src="{{ site.baseurl }}/assets/images/logos/cookpad-logo.svg" alt="Cookpad"></a></div>
-    <div class="col-3 col-md-2"><img src="{{ site.baseurl }}/assets/images/logos/lloyds-logo.svg" style="width: 100%" alt="Lloyds Bank"></div>
-    <div class="col-3 col-md-2"><img src="{{ site.baseurl }}/assets/images/logos/Tesco-logo.svg" alt="Tesco"></div>
-    <div class="col-3 col-md-2"><img src="{{ site.baseurl }}/assets/images/logos/Elsevier-logo.svg" alt="Elsevier"></div>
-    <div class="col-3 col-md-2"><img src="{{ site.baseurl }}/assets/images/logos/Fifa-logo.svg" alt="Fifa"></div>
-    <div class="col-3 col-md-2"><img src="{{ site.baseurl }}/assets/images/logos/Homebase-logo.svg" alt="Homebase"></div>
-    <div class="col-3 col-md-2"><img src="{{ site.baseurl }}/assets/images/logos/Trussle-logo.svg" alt="Trussle"></div>
-    <div class="col-3 col-md-2"><img src="{{ site.baseurl }}/assets/images/logos/Gov-logo.png" alt="Gov uk"></div>
-    <div class="col-3 col-md-2"><img src="{{ site.baseurl }}/assets/images/logos/RBS-logo.svg" alt="RBS"></div>
-    <div class="col-3 col-md-2"><img src="{{ site.baseurl }}/assets/images/logos/Kelloggs-logo.svg" alt="Kelloggs">Kellogg's</div>
-    <div class="col-3 col-md-2"><img src="{{ site.baseurl }}/assets/images/logos/experian-logo.svg" alt="Experian"></div>
+    <div class="col-3 col-md-2">
+      <span class="helper"></span>
+        <a href="{{ site.baseurl }}/trainline"><img src="{{ site.baseurl }}/assets/images/logos/tl-logo.svg" alt="Trainline"></a>
+    </div>
+    <div class="col-3 col-md-2"><a href="{{ site.baseurl }}/science-museum">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/sciencemuseum-logo.svg" alt="Science Museum"></a>
+    </div>
+    <div class="col-3 col-md-2"><a href="{{ site.baseurl }}/just-eat">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/justeat-logo.svg" alt="Just Eat"></a>
+    </div>
+    <div class="col-3 col-md-2"><a href="{{ site.baseurl }}/cookpad">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/cookpad-logo.svg" alt="Cookpad"></a>
+    </div>
+    <div class="col-3 col-md-2">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/lloyds-logo.svg" style="width: 100%" alt="Lloyds Bank">
+    </div>
+    <div class="col-3 col-md-2">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/Tesco-logo.svg" alt="Tesco">
+    </div>
+    <div class="col-3 col-md-2">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/Elsevier-logo.svg" alt="Elsevier">
+    </div>
+    <div class="col-3 col-md-2">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/Fifa-logo.svg" alt="Fifa">
+    </div>
+    <div class="col-3 col-md-2">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/Homebase-logo.svg" alt="Homebase">
+    </div>
+    <div class="col-3 col-md-2">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/Trussle-logo.svg" alt="Trussle">
+    </div>
+    <div class="col-3 col-md-2">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/Gov-logo.png" alt="Gov uk">
+    </div>
+    <div class="col-3 col-md-2">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/RBS-logo.svg" alt="RBS">
+    </div>
+    <div class="col-3 col-md-2">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/Kelloggs-logo.svg" alt="Kelloggs">
+    </div>
+    <div class="col-3 col-md-2">
+      <span class="helper"></span>
+      <img src="{{ site.baseurl }}/assets/images/logos/experian-logo.svg" alt="Experian">
+    </div>
   </div>
 </div>

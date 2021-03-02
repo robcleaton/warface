@@ -13,15 +13,15 @@ layout: default
   }
 
   .hero {
-    background: red;
-
     position: sticky;
     z-index: 0;
     top: 0;
     padding-top: 100px;
     margin-top: 0px;
+    padding-bottom: 25px !important;
   }
   .sheets, footer {
+    background: #f1f1ec;
     z-index: 100;
     position: relative;
     display: block;
@@ -32,7 +32,7 @@ layout: default
 
 <div class="container-fluid hero" style="padding-bottom: 0px;">
   {% include about.html %}
-  <p class="lead">asdf</p>
+  <p class="lead"></p>
 </div>
 
 <div class="sheets">
@@ -68,7 +68,7 @@ layout: default
     </div>
   </div>
 
-  <div class="cards-lg" style="background: #f1f1ec;">
+  <div class="cards-lg">
     {% include project-cards.html %}
   </div>
 
