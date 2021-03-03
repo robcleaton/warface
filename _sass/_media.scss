@@ -1,8 +1,10 @@
 // Mobile
 @media only screen and (max-width: 600px) {
   .container-fluid {
-    padding-top: 0px;
     margin-top: 64px;
+  }
+  .case-study {
+    padding-top: 16px;
   }
   h1 {
     font-size: 3.8rem;
