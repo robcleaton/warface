@@ -1,5 +1,6 @@
 
 $base-clay: #f1f1ec;
+$clay: #e2dacd;
 $yellow: #FDB813;
 $khaki-green: #325026;
 $white: #ffffff;
@@ -8,8 +9,8 @@ $black: #000000;
 $pink-1: pink;
 $pink-2: #f34977;
 
-$trainline-primary: #000000;
-$trainline-secondary: #000000;
+$trainline-primary: #21304d;
+$trainline-secondary: #48D5B5;
 
 $justeat-primary: #000000;
 $justeat-secondary: #000000;
@@ -19,6 +20,12 @@ $oatbook-secondary: #000000;
 
 
 .trainline {
+  a {
+    color: $trainline-primary;
+  }
+  a:hover {
+    color: $trainline-secondary;
+  }
 }
 .oatbook {
 }

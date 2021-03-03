@@ -30,28 +30,41 @@ a {
 .navbar-light .navbar-toggler-icon {
   background: url('../images/menu.svg') 0 0 no-repeat;
 }
-
+.case-study {
+  padding-top: 16px;
+}
+.color-block {
+  height: 68vh;
+  background: $pink-1;
+  color: $white;
+  padding-top: 10px;
+}
+.clients {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 footer {
   /* background: $yellow; */
   width: 100%;
-  color: $white;
+  color: $clay;
   height: 400px;
   z-index: 10;
   position: relative;
 
 
   h2 {
-    color: $white;
+    color: $clay;
   }
   .container-fluid {
     padding-top: 20px;
   }
   a {
     font-weight: 400;
-    color: $white;
+    color: $clay;
   }
   a:hover {
-    color: black;
+    color: $yellow;
+    text-decoration: none;
   }
 }
 
@@ -88,12 +101,7 @@ footer {
 }
 
 
-.color-block {
-  height: 68vh;
-  background: $pink-1;
-  color: $white;
-  padding-top: 10px;
-}
+
 h2 {
   z-index: 0;
   position: relative;
