@@ -58,7 +58,9 @@
 
 // Desktop
 @media only screen and (min-width: 991px) {
-
+  .color-block {
+    height: 88vh;
+  }
   h1 {
     font-size: 8rem;
     letter-spacing: -0.1rem;

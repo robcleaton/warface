@@ -38,9 +38,15 @@ a {
   background: $pink-1;
   color: $white;
   padding-top: 10px;
+  opacity: 1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.img-fluid {
+  width: 100%;
 }
 .clients {
-  padding-top: 80px;
   padding-bottom: 80px;
 }
 footer {
