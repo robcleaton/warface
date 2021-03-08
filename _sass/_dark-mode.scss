@@ -9,8 +9,13 @@
   .navbar-light .navbar-nav .nav-link {
     color: white;
   }
+  a.navbar-brand {
+    background: url("../images/logos/warface-logo-white.svg")0 0 no-repeat;
+    height: 48px;
+    width: 80px;
+  }logos/
   h2, h6 {
-    color: #40392a;
+  -white  color: #40392a;
   }
   div.scrollmenu .card a, div.scrollmenu .card p {
     color: #40392a;

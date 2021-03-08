@@ -4,6 +4,14 @@ html, body {
 a {
   color: #2dca8a;
 }
+a.navbar-brand {
+  background: url("../images/warface-logo.svg")0 0 no-repeat;
+  height: 48px;
+  width: 80px;
+}
+a.navbar-brand:hover {
+  opacity: 0.1;
+}
 .navbar-light .navbar-nav .nav-link {
   color: $yellow;
   font-size: 28px;
@@ -44,11 +52,19 @@ a {
   background-position: center center;
 }
 .sheets, footer {
-  background: #f1f1ec;
+  background: $base-clay;
   z-index: 100;
   position: relative;
   display: block;
   margin-top: -20px;
+}
+
+.hero {
+  position: sticky;
+  z-index: 0;
+  padding-top: 100px;
+  margin-top: 0px;
+  padding-bottom: 25px;
 }
 
 .img-fluid {
@@ -56,14 +72,6 @@ a {
 }
 .clients {
   padding-bottom: 80px;
-}
-
-.sheets {
-  background: $base-clay;
-  z-index: 100;
-  position: relative;
-  display: block;
-  margin-top: -20px;
 }
 
 footer {
