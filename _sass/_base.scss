@@ -57,6 +57,15 @@ a {
 .clients {
   padding-bottom: 80px;
 }
+
+.sheets {
+  background: $base-clay;
+  z-index: 100;
+  position: relative;
+  display: block;
+  margin-top: -20px;
+}
+
 footer {
   /* background: $yellow; */
   padding-bottom: 28px;
@@ -65,12 +74,9 @@ footer {
   z-index: 10;
   position: relative;
 
-
-  h2 {
-    color: $clay;
-  }
   .container-fluid {
     padding-top: 20px;
+    margin-top: 0px;
   }
   a {
     font-weight: 400;
@@ -112,21 +118,4 @@ footer {
 }
 .clients img {
   width: 100%;
-}
-
-
-
-h2 {
-  z-index: 0;
-  position: relative;
-}
-div.sheets {
-  z-index: 10;
-  position: relative;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background: black;
-  }
 }
