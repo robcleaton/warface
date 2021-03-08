@@ -2,7 +2,20 @@
   body, .sheets, footer {
     background: black;
   }
-  .bg-light {
-    background: black !important;
+  .bg-light, div.scrollmenu .card {
+    background: #272727 !important;
+    color: white;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+  }
+  h2 {
+    color: #40392a;
+  }
+  .color-block {
+    color: black;
+  }
+  footer a {
+    color: #3a3836;
   }
 }
