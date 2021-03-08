@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: dark) {
-  body, .sheets, footer {
+  html, body, .sheets, footer {
     background: black;
   }
   .bg-light, div.scrollmenu .card {
@@ -9,10 +9,21 @@
   .navbar-light .navbar-nav .nav-link {
     color: white;
   }
-  h2 {
+  h2, h6 {
+    color: #40392a;
+  }
+  div.scrollmenu .card a, div.scrollmenu .card p {
     color: #40392a;
   }
   .color-block {
+    color: black;
+  }
+  .form-control {
+    background-color: #272727;
+    color: $white;
+  }
+  .btn-primary {
+    background: $white;
     color: black;
   }
   footer a {
