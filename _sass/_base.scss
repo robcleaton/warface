@@ -116,3 +116,9 @@ div.sheets {
   z-index: 10;
   position: relative;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+  }
+}
