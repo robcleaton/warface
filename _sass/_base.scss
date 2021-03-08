@@ -43,6 +43,14 @@ a {
   background-repeat: no-repeat;
   background-position: center center;
 }
+.sheets, footer {
+  background: #f1f1ec;
+  z-index: 100;
+  position: relative;
+  display: block;
+  margin-top: -20px;
+}
+
 .img-fluid {
   width: 100%;
 }
