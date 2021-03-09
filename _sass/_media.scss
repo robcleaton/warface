@@ -1,7 +1,7 @@
 // Mobile
 @media only screen and (max-width: 600px) {
   .container-fluid {
-    
+
   }
   .case-study {
     padding-top: 16px;
@@ -19,7 +19,7 @@
     word-spacing: -0.2rem;
   }
   .hero {
-    padding-top: 80px !important;
+    padding-top: 64px;
   }
   .lead {
     font-size: 1rem;
@@ -30,8 +30,6 @@
 @media only screen and (min-width: 601px) {
 
   .container-fluid {
-    padding-top: 28px;
-    margin-top: 62px;
   }
   .case-study {
     padding-top: 48px;
@@ -49,6 +47,10 @@
 
 // Desktop
 @media only screen and (min-width: 991px) {
+
+  .hero {
+    padding-top: 88px;
+  }
   .color-block {
     height: 88vh;
   }
@@ -66,8 +68,6 @@
     font-size: 3.4rem;
     line-height: 2.7rem;
     word-spacing: -0.6rem;
-  }
-  body {
   }
   a.navbar-brand {
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='79' height='95' viewport='0 0 100 100' style='fill:black;font-size:47px;'><text y='50%'>🍕</text></svg>") 16 0,auto; /*!emojicursor.app*/

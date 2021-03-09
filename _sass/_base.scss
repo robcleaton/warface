@@ -12,6 +12,10 @@ a.navbar-brand {
 a.navbar-brand:hover {
   opacity: 0.1;
 }
+::selection {
+  background: red;
+  color: $white;
+}
 .navbar-light .navbar-nav .nav-link {
   color: $yellow;
   font-size: 28px;
@@ -45,24 +49,17 @@ a.navbar-brand:hover {
   margin-top: 0px;
   padding-top: 0px;
 }
-.hero {
-  position: sticky;
-  z-index: 0;
-  top: 0;
-  padding-top: 90px;
-  margin-top: 0px;
-  padding-bottom: 25px !important;
-}
-
 .color-block {
   height: 68vh;
   background: $pink-1;
   color: $white;
-  padding-top: 10px;
   opacity: 1;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  h2 {
+    padding-top: 10px;
+  }
 }
 .sheets, footer {
   background: $base-clay;
@@ -77,10 +74,17 @@ a.navbar-brand:hover {
 }
 
 .hero {
+  padding-top: 64px;
+  margin-top: 0px;
+  h2 {
+    padding-top: 10px;
+  }
+}
+
+.sticky {
   position: sticky;
   z-index: 0;
-  padding-top: 100px;
-  margin-top: 0px;
+  top: 0;
   padding-bottom: 25px;
 }
 
@@ -129,10 +133,7 @@ footer {
   border: none !important;
   box-shadow: none !important;
 }
-::selection {
-  background: red;
-  color: $white;
-}
+
 
 .carousel-item img {
   height: 80vh;
