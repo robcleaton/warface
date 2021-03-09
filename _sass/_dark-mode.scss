@@ -1,6 +1,13 @@
 @media (prefers-color-scheme: dark) {
   html, body, .sheets, footer {
     background: black;
+    color: $dark-clay;
+  }
+  a {
+    color: $base-clay;
+  }
+  a:hover {
+    color: $yellow;
   }
   .bg-light, div.scrollmenu .card {
     background: #272727 !important;
@@ -34,12 +41,24 @@
   .form-control {
     background-color: #272727;
     color: $white;
+    border: 1px solid #44423e;
+  }
+  .form-control:focus {
+    background: $dark-clay;
+    border: 1px solid $white;
+    color: $white;
   }
   .btn-primary {
     background: $white;
     color: black;
   }
-  footer a {
-    color: #3a3836;
+  footer {
+    background: $black;
+    a {
+      color: $dark-clay;
+    }
+    h2 a {
+      color: #3a3836;
+    }
   }
 }
