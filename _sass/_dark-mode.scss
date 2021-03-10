@@ -56,30 +56,51 @@
 
   .clients {
     .trainline {
-      background: blue url('../images/logos/tl-white-logo.svg')0 0 no-repeat;
+      background: url('../images/logos/tl-white-logo.svg')center center no-repeat;
       width: 100%;
-      background-size: 100%;
+      background-size: 60%;
     }
     .science-museum {
-      background: blue url('../images/logos/sciencemuseum-white-logo.svg')0 0 no-repeat;
+      background: url('../images/logos/sciencemuseum-white-logo.svg')center center no-repeat;
       width: 100%;
-      background-size: 100%;
+      background-size: 60%;
     }
-    .just-eat {
+    .justeat {
+      background: blue url('../images/logos/justeat-white-logo.svg')center center no-repeat;
+      width: 100%;
+      background-size: 80%;
     }
     .cookpad {
+      background: blue url('../images/logos/cookpad-white-logo.svg')center center no-repeat;
+      width: 100%;
+      background-size: 80%;
     }
     .lloyds {
     }
     .tesco {
-      background: blue url('../images/logos/tesco-white-logo.svg')0 0 no-repeat;
+      background: blue url('../images/logos/tesco-white-logo.svg')center center no-repeat;
       width: 100%;
-      background-size: 100%;
+      background-size: 60%;
     }
     .elsevier {
-      background: blue url('../images/logos/elsevier-white-logo.svg')0 0 no-repeat;
-      width: 20%;
-      background-size: 100%;
+      background: url('../images/logos/elsevier-white-logo.svg')center center no-repeat;
+      width: 100%;
+      background-size: 30%;
+    }
+    .fifa {
+      background: blue url('../images/logos/fifa-white-logo.svg')center center no-repeat;
+      width: 100%;
+      background-size: 80%;
+    }
+    .homebase {
+      background: blue url('../images/logos/homebase-white-logo.svg')center center no-repeat;
+      width: 100%;
+      background-size: 80%;
+    }
+    .experian {
+      background: blue url('../images/logos/experian-white-logo.svg')center center no-repeat;
+      width: 100%;
+      background-size: 70%;
     }
   }
   footer {
