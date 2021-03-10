@@ -19,7 +19,14 @@ $justeat-secondary: #000000;
 $oatbook-primary: #000000;
 $oatbook-secondary: #000000;
 
+$cookpad-primary: #FF9933;
+$cookpad-secondary: white;
+
+
 .trainline {
+  h2 {
+    color: $trainline-secondary;
+  }
   a {
     color: $trainline-primary;
   }

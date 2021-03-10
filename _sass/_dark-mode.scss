@@ -1,5 +1,5 @@
-@media (prefers-color-scheme: dark) {
-  
+// @media (prefers-color-scheme: dark) {
+
   html, body, .sheets, footer {
     background: black;
     color: $dark-clay;
@@ -53,6 +53,29 @@
     background: $white;
     color: black;
   }
+
+  .clients {
+    .trainline {
+      background: blue url('../images/logos/tl-white-logo.svg')0 0 no-repeat;
+      width: 100%;
+      background-size: 100%;
+    }
+    .science-museum {
+    }
+    .just-eat {
+    }
+    .cookpad {
+    }
+    .lloyds {
+    }
+    .tesco {
+      background: blue url('../images/logos/tesco-white-logo.svg')0 0 no-repeat;
+      width: 100%;
+      background-size: 100%;
+    }
+    .elsevier {
+    }
+  }
   footer {
     background: $black;
     a {
@@ -62,4 +85,4 @@
       color: #3a3836;
     }
   }
-}
+// }
