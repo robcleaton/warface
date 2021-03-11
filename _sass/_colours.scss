@@ -34,9 +34,28 @@ $cookpad-secondary: white;
 .color-block.sciencemuseum {
   background: #b5ea63;
 }
+.color-block.oatbook {
+  background: #ffca4c;
+}
 .color-block.recliningworm {
   background: $pink-1;
 }
+.color-block.artimbarc {
+  background: $pink-1;
+}
+.color-block.justeat {
+  background: #ff4f6e;
+}
+.color-block.recliningworm {
+  background: $pink-1;
+}
+.color-block.cookpad {
+  background: $cookpad-primary;
+  h2 {
+    color: $cookpad-secondary;
+  }
+}
+
 
 .trainline {
   html, body {
