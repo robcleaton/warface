@@ -23,7 +23,28 @@ $cookpad-primary: #FF9933;
 $cookpad-secondary: white;
 
 
+.color-block.trainline {
+  background: $yellow;
+  // background-image: url('../images/projects/test-card.png');
+  color: $white;
+  ::selection {
+    background: blue;
+  }
+}
+.color-block.sciencemuseum {
+  background: #b5ea63;
+}
+.color-block.recliningworm {
+  background: $pink-1;
+}
+
 .trainline {
+  html, body {
+    background: $trainline-primary;
+  }
+  h1, h3 {
+    color: $trainline-primary;
+  }
   h2 {
     color: $trainline-secondary;
   }

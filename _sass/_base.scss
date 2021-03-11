@@ -52,11 +52,15 @@ a.navbar-brand:hover {
 .color-block {
   height: 68vh;
   background: $pink-1;
-  color: $white;
-  opacity: 1;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+
+  .center-align {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+  
   h2 {
     padding-top: 10px;
   }
@@ -144,4 +148,68 @@ footer {
 }
 .clients img {
   width: 100%;
+}
+.clients {
+  .helper {
+    opacity: 0.4;
+    max-width: 200px;
+  }
+  .helper:hover {
+    opacity: 0.8;
+  }
+  .trainline {
+    background: url('../images/logos/tl-black-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 60%;
+  }
+  .science-museum {
+    background: url('../images/logos/sciencemuseum-black-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 60%;
+  }
+  .justeat {
+    background: url('../images/logos/justeat-black-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 80%;
+  }
+  .cookpad {
+    background: url('../images/logos/cookpad-black-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 80%;
+  }
+  .lloyds {
+    background: url('../images/logos/lloyds-black-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 50%;
+  }
+  .tesco {
+    background: url('../images/logos/tesco-black-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 60%;
+  }
+  .elsevier {
+    background: url('../images/logos/elsevier-black-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 30%;
+  }
+  .fifa {
+    background: url('../images/logos/fifa-black-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 60%;
+  }
+  .homebase {
+    background: url('../images/logos/homebase-black-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 80%;
+  }
+  .rbs {
+    background: url('../images/logos/rbs-black-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 70%;
+  }
+  .experian {
+    background: url('../images/logos/experian-black-logo.svg')center center no-repeat;
+    width: 100%;
+    background-size: 70%;
+  }
 }

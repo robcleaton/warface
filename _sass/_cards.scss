@@ -30,6 +30,13 @@ div.scrollmenu .card:hover {
   display: none;
 }
 
+.trainline-logo {
+  background: url('../images/logos/tl-black-logo.svg') left center no-repeat;
+  background-size: 28%;
+  width: 100%;
+  height: 40px;
+  display: block;
+}
 div.scrollmenu .card {
   background: $white;
   color: $pink-1;
@@ -42,6 +49,7 @@ div.scrollmenu .card {
   img.card-img-top {
     background: pink;
     object-fit: cover;
+    height: 260px;
   }
   h5 {
     text-align: left;
