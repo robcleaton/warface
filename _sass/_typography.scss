@@ -3,6 +3,10 @@
   font-family: 'SerifGothic';
   src: url(../fonts/Serif-Gothic/itc-serif-gothic-black.otf);
 }
+@font-face {
+  font-family: 'Kabel-Black';
+  src: url(../fonts/kabel/Kabel-Black.ttf);
+}
 /*
 @font-face {
   font-family: 'Cinderblock-100';
@@ -17,7 +21,7 @@ h1 {
 
 h2 {
   font-size: 6rem;
-  font-family: 'SerifGothic';
+  font-family: 'SerifGothic', 'Kabel-Black';
   text-transform: uppercase;
   letter-spacing: -0.1rem;
   line-height: 4.6rem;
