@@ -163,6 +163,20 @@ div.scrollmenu .card.reclining-worm:hover {
   background: #9f5ce6;
 }
 
+// XS CARDS
+.navbar-collapse .cards-xs .scrollmenu {
+  padding: 0px 20px;
+  .card {
+    width: 260px;
+  }
+  img.card-img-top {
+    height: 160px;
+  }
+  .card-text {
+    display: none;
+  }
+}
+
 
 // Mobile
 @media only screen and (max-width: 991px) {
@@ -178,6 +192,9 @@ div.scrollmenu .card.reclining-worm:hover {
     }
   }
 }
+
+
+
 
 // HERO CARDS
   // Desktop

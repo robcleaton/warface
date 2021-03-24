@@ -8,6 +8,7 @@ a.navbar-brand {
   background: url("../images/warface-logo.svg")0 0 no-repeat;
   height: 48px;
   width: 80px;
+  margin-left: 0.5rem;
 }
 a.navbar-brand:hover {
   opacity: 0.1;
@@ -15,6 +16,14 @@ a.navbar-brand:hover {
 ::selection {
   background: red;
   color: $white;
+}
+.navbar {
+  li.nav-item {
+    padding-left: 0.8rem;
+  }
+}
+.navbar-collapse {
+  width: 100%;
 }
 .navbar-light .navbar-nav .nav-link {
   color: $yellow;
@@ -60,7 +69,7 @@ a.navbar-brand:hover {
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
   }
-  
+
   h2 {
     padding-top: 10px;
   }

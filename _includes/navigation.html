@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <a class="navbar-brand" href="{{ site.baseurl }}/">
   </a>
@@ -6,23 +7,20 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link" href="{{ site.baseurl }}/projects">Projects</a>
-        {% include project-cards.html %}
-
-        <ul>
-          <li>Trainline</li>
-          <li>Just Eat</li>
-          <li>OATBook</li>
-          <li>RecliningWorm</li>
-        </ul>
       </li>
+      <div class="cards-xs">
+        {% include project-cards.html %}
+      </div>
       <li class="nav-item">
         <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link contact" href="{{ site.baseurl }}/contact">Contact</a>
       </li>
+    </ul>
   </div>
 </nav>
