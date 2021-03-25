@@ -1,22 +1,32 @@
-@media (prefers-color-scheme: dark) {
+// @media (prefers-color-scheme: dark) {
 
   html, body, .sheets, footer {
     background: black;
     color: $dark-clay;
   }
   a {
-    color: $base-clay;
+    color: #F0E8DD;
   }
   a:hover {
     color: $yellow;
   }
-  .bg-light, div.scrollmenu .card {
+  .navbar {
     background: #272727 !important;
     color: white;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background: url('../images/menu-white.svg') 0 0 no-repeat;
   }
   .navbar-light .navbar-nav .nav-link {
     color: $dark-clay;
   }
+  div.scrollmenu .card {
+    background: #272727;
+  }
+  .cards-xs div.scrollmenu .card {
+    background: pink;
+  }
+
   a.nav-link:hover {
     color: $yellow !important;
   }
@@ -203,6 +213,16 @@
       background-size: 70%;
     }
   }
+
+  .trainline {
+      h3 {
+        color: white;
+    }
+    a {
+      color: white;
+    }
+  }
+
   footer {
     background: $black;
     a {
@@ -212,4 +232,4 @@
       color: #3a3836;
     }
   }
-}
+// }

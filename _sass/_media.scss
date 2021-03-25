@@ -4,7 +4,7 @@
   .navbar {
     padding: 0.5rem 0px;
   }
-  
+
   h1 {
     font-size: 3.8rem;
     letter-spacing: -0.1rem;
@@ -21,6 +21,7 @@
     background-image: url('../images/projects/test-card-m.png');
   }
   .hero {
+    padding: 0px;
     padding-top: 64px;
   }
   .lead {
@@ -34,7 +35,9 @@
   .navbar {
     padding: 0.5rem 0px;
   }
-
+  .hero {
+    padding-top: 44px;
+  }
   .case-study {
     margin-top: 20px;
   }
@@ -51,11 +54,17 @@
 
 // Desktop
 @media only screen and (min-width: 991px) {
+  html {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='79' height='95' viewport='0 0 100 100' style='fill:black;font-size:47px;'><text y='50%'>🍕</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
+  a {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='80' height='80' viewport='0 0 100 100' style='fill:black;font-size:44px;'><text y='50%'>☺️</text></svg>") 16 0,auto; /*!emojicursor.app*/
+  }
   .navbar-nav .scrollmenu {
     display: none;
   }
   .hero {
-    padding-top: 74px;
+    padding-top: 58px;
   }
   .case-study {
     margin-top: 16px;
