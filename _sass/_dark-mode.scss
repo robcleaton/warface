@@ -1,6 +1,7 @@
-// @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 
   html, body, .sheets, footer {
+    // background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%); //
     background: black;
     color: $dark-clay;
   }
@@ -11,7 +12,7 @@
     color: $yellow;
   }
   .navbar {
-    background: #272727 !important;
+    background-color: #272727 !important;
     color: white;
   }
   .navbar-light .navbar-toggler-icon {
@@ -232,4 +233,4 @@
       color: #3a3836;
     }
   }
-// }
+}

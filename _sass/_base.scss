@@ -88,11 +88,11 @@ a.navbar-brand:hover {
 
 .hero .row {
   margin: 0px;
-  margin-top: 20px;
 }
 .hero {
   padding: 0px;
   padding-top: 64px;
+  padding-bottom: 16px;
   margin-top: 0px;
 
   h2 {
@@ -105,7 +105,11 @@ a.navbar-brand:hover {
   z-index: 0;
   top: 0;
   padding-bottom: 25px;
+  opacity: 1;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
 }
+
 
 .img-fluid {
   width: 100%;
