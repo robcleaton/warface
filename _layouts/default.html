@@ -1,4 +1,7 @@
 
 {% include header.html %}
-{{ content }}
-{% include footer.html %}
+
+<div class="{{ page.title }}">
+  {{ content }}
+  {% include footer.html %}
+</div>
