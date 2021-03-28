@@ -1,12 +1,9 @@
 
 {% include header.html %}
+{{ content }}
 
-<body>
-  {{ content }}
+<section class="project-cards">
+  {% include project-cards.html %}
+</section>
 
-  <section class="project-cards">
-    {% include project-cards.html %}
-  </section>
-
-  {% include footer.html %}
-</body>
+{% include footer.html %}
