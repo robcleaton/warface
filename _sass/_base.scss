@@ -183,6 +183,22 @@ footer {
 .clients img {
   width: 100%;
 }
+.clients .col-4 {
+  height: 80px;
+  width: 160px;
+  white-space: nowrap;
+  text-align: center; margin: 1em 0;
+}
+.clients .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.clients img {
+    vertical-align: middle;
+    max-height: 40px;
+    max-width: 160px;
+}
 .clients {
   .helper {
     opacity: 0.4;
