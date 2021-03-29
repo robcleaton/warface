@@ -80,7 +80,7 @@ li {
     padding-top: 10px;
   }
 }
-.sheets, footer {
+.sheets {
   background: $base-clay;
   z-index: 100;
   position: relative;
@@ -126,11 +126,13 @@ li {
 
 footer {
   /* background: $yellow; */
+  background: $base-clay;
   padding-bottom: 28px;
   width: 100%;
   color: $clay;
-  z-index: 10;
+  z-index: 200;
   position: relative;
+  display: block;
 
   .container-fluid {
     padding-top: 20px;
