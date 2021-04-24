@@ -35,6 +35,9 @@ footer a:hover {
 .list-inline {
   text-align: center;
 }
+p.card-text {
+  display: none;
+}
 </style>
 
 <div class="container-fluid hero">
@@ -46,6 +49,10 @@ footer a:hover {
   </div>
 
   <p>New site coming soon</p>
+
+
+  {% include project-cards.html %}
+
 
   <footer>
     <div class="container-fluid">
