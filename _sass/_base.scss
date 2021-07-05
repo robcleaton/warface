@@ -16,6 +16,7 @@ a.navbar-brand:hover {
   opacity: 0.1;
 }
 
+
 ::selection {
   background-color: rgba(255,255,255,0.4);
   color: $blue;
@@ -62,7 +63,7 @@ a.navbar-brand:hover {
   padding-top: 0px;
 }
 .image-block {
-  margin: 80px 0px;
+  margin: 20px 0px;
 }
 .color-block {
   height: 68vh;
@@ -100,9 +101,9 @@ a.navbar-brand:hover {
 }
 .hero {
   padding: 0px;
-  padding-top: 64px;
   padding-bottom: 16px;
   margin-top: 0px;
+  text-align: center;
 
   h2 {
     padding-top: 10px;
@@ -128,6 +129,7 @@ a.navbar-brand:hover {
 }
 .img-fluid {
   width: 100%;
+  margin-bottom: 20px;
 }
 .clients {
   padding-bottom: 80px;

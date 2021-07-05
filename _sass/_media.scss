@@ -46,10 +46,17 @@
     font-size: 6rem;
     letter-spacing: -0.1rem;
     line-height: 3.9rem;
+    margin-bottom: 0px;
     /* transition-duration: 6s; */
   }
   h2 {
     font-size: 5.5rem;
+  }
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .image-block {
+    margin: 40px 0px;
   }
 }
 
@@ -81,7 +88,9 @@
     letter-spacing: -0.1rem;
     line-height: 5.4rem;
   }
-
+  h4 {
+    margin-top: 40px;
+  }
   h6 {
     font-size: 3.4rem;
     line-height: 2.7rem;
