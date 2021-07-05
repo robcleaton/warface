@@ -15,10 +15,7 @@ a.navbar-brand {
 a.navbar-brand:hover {
   opacity: 0.1;
 }
-li {
-  font-family: 'Kabel-Black';
-  font-size: 1.2rem;
-}
+
 ::selection {
   background-color: rgba(255,255,255,0.4);
   color: $blue;
@@ -64,6 +61,9 @@ li {
   margin-top: 0px;
   padding-top: 0px;
 }
+.image-block {
+  margin: 80px 0px;
+}
 .color-block {
   height: 68vh;
   background: $pink-1;
@@ -80,12 +80,15 @@ li {
     padding-top: 10px;
   }
 }
+.carousel {
+  margin: 40px 0px;
+}
 .sheets, footer {
   background: $base-clay;
   z-index: 100;
   position: relative;
   display: block;
-  margin-top: -20px;
+  margin-top: -24px;
 }
 .sheets .container-fluid {
   margin-top: 0px;
@@ -116,7 +119,13 @@ li {
   -webkit-animation: fadeIn ease 2s;
 }
 
-
+.rating-5 {
+  background: url('/assets/images/projects/rating.svg') 24px center no-repeat;
+  display: inline-block;
+  width: 110px;
+  height: 20px;
+  text-align: left;
+}
 .img-fluid {
   width: 100%;
 }
@@ -176,7 +185,6 @@ footer {
 
 
 .carousel-item img {
-  height: 80vh;
   object-fit: cover;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
